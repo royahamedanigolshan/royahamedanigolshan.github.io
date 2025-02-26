@@ -1,2 +1,6 @@
 Websit title: line 30
 Website subtitle: line 32
+
+About: Line 49
+
+Research: Line 75
