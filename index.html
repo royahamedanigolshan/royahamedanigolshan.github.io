@@ -103,7 +103,7 @@
     <!-- Scientific Journey -->
     <h3>My Scientific Journey</h3>
 
-    <p>
+	<p style="text-align: justify;">
         My scientific background is in astrophysics, where I have
         explored the physical and chemical processes governing star
         formation and the evolution of galaxies. Through my research,
@@ -112,7 +112,7 @@
         physical modelling.
     </p>
 
-    <p>
+	<p style="text-align: justify;">
         My scientific curiosity extends beyond astronomy. I am
         increasingly interested in Earth observation, atmospheric
         processes, weather and climate science, and in applying my
@@ -122,13 +122,13 @@
     <!-- Science and Humanity -->
     <h3>Science &amp; Humanity</h3>
 
-    <p>
+	<p style="text-align: justify;">
         For me, science is not only about discovering new things,
         but also about understanding our place in the natural world
         and our relationship with one another.
     </p>
 
-    <p>
+	<p style="text-align: justify;">
         Alongside my scientific work, I have a longstanding interest
         in human development, psychological wellbeing, mentoring,
         and inclusive academic environments. I believe that supporting
@@ -139,14 +139,14 @@
     <!-- Beyond Science -->
     <h3>Beyond Science</h3>
 
-    <p>
+	<p style="text-align: justify;">
         I genuinely enjoy connecting with others, spending quality
         time together, and making time for myself. I love physical
         activities, including yoga, Pilates, group strength training,
         team sports, hiking, and water activities.
     </p>
 
-    <p>
+	<p style="text-align: justify;">
         I also enjoy expressing my creative side through cooking,
         Persian calligraphy, painting, and crafting. Reading has
         become another important part of my life, offering
@@ -155,29 +155,51 @@
     </p>
 
     <!-- Personal Photographs -->
-    <div class="about-gallery">
+<div style="display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 16px;
+            width: 100%;
+            margin: 2rem 0;">
 
-        <figure>
-            <img src="images/roya1.jpg"
-                 alt="Roya in the Kölner Grüngürtel, Germany"
-                 loading="lazy" />
+    <!-- First photograph -->
+    <figure style="flex: 1; min-width: 0; margin: 0;">
+        <img src="images/roya1.jpg"
+             alt="Roya in the Kölner Grüngürtel"
+             style="width: 100%;
+                    aspect-ratio: 4 / 5;
+                    object-fit: cover;
+                    display: block;
+                    border-radius: 8px;" />
 
-            <figcaption>
-                Kölner Grüngürtel, Germany
-            </figcaption>
-        </figure>
+        <figcaption style="text-align: center;
+                           font-size: 0.85em;
+                           color: #cccccc;
+                           margin-top: 8px;">
+            Kölner Grüngürtel, Germany
+        </figcaption>
+    </figure>
 
-        <figure>
-            <img src="images/roya2.jpg"
-                 alt="Roya in the Lake District, UK"
-                 loading="lazy" />
+    <!-- Second photograph -->
+    <figure style="flex: 1; min-width: 0; margin: 0;">
+        <img src="images/roya2.jpg"
+             alt="Roya in the Lake District"
+             style="width: 100%;
+                    aspect-ratio: 4 / 5;
+                    object-fit: cover;
+                    display: block;
+                    border-radius: 8px;" />
 
-            <figcaption>
-                Lake District, UK
-            </figcaption>
-        </figure>
+        <figcaption style="text-align: center;
+                           font-size: 0.85em;
+                           color: #cccccc;
+                           margin-top: 8px;">
+            Lake District, UK
+        </figcaption>
+    </figure>
 
-    </div>
+</div>
 
     <!-- Closing Message -->
     <p class="about-closing">
